@@ -1,0 +1,384 @@
+fileFormatVersion: 2
+guid: e8772c5a82881fb4285758182a825c48
+timeCreated: 1427050665
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: Fbx01
+    100002: Fbx01_Footsteps
+    100004: Fbx01_Head
+    100006: Fbx01_HeadNub
+    100008: Fbx01_L_Calf
+    100010: Fbx01_L_Clavicle
+    100012: Fbx01_L_Eye
+    100014: Fbx01_L_Finger0
+    100016: Fbx01_L_Finger01
+    100018: Fbx01_L_Finger02
+    100020: Fbx01_L_Finger0Nub
+    100022: Fbx01_L_Finger1
+    100024: Fbx01_L_Finger11
+    100026: Fbx01_L_Finger12
+    100028: Fbx01_L_Finger1Nub
+    100030: Fbx01_L_Finger2
+    100032: Fbx01_L_Finger21
+    100034: Fbx01_L_Finger22
+    100036: Fbx01_L_Finger2Nub
+    100038: Fbx01_L_Finger3
+    100040: Fbx01_L_Finger31
+    100042: Fbx01_L_Finger32
+    100044: Fbx01_L_Finger3Nub
+    100046: Fbx01_L_Finger4
+    100048: Fbx01_L_Finger41
+    100050: Fbx01_L_Finger42
+    100052: Fbx01_L_Finger4Nub
+    100054: Fbx01_L_Foot
+    100056: Fbx01_L_Forearm
+    100058: Fbx01_L_Hand
+    100060: Fbx01_L_Thigh
+    100062: Fbx01_L_Toe0
+    100064: Fbx01_L_Toe0Nub
+    100066: Fbx01_L_UpperArm
+    100068: Fbx01_Neck
+    100070: Fbx01_Neck1
+    100072: Fbx01_Pelvis
+    100074: Fbx01_R_Calf
+    100076: Fbx01_R_Clavicle
+    100078: Fbx01_R_Eye
+    100080: Fbx01_R_Finger0
+    100082: Fbx01_R_Finger01
+    100084: Fbx01_R_Finger02
+    100086: Fbx01_R_Finger0Nub
+    100088: Fbx01_R_Finger1
+    100090: Fbx01_R_Finger11
+    100092: Fbx01_R_Finger12
+    100094: Fbx01_R_Finger1Nub
+    100096: Fbx01_R_Finger2
+    100098: Fbx01_R_Finger21
+    100100: Fbx01_R_Finger22
+    100102: Fbx01_R_Finger2Nub
+    100104: Fbx01_R_Finger3
+    100106: Fbx01_R_Finger31
+    100108: Fbx01_R_Finger32
+    100110: Fbx01_R_Finger3Nub
+    100112: Fbx01_R_Finger4
+    100114: Fbx01_R_Finger41
+    100116: Fbx01_R_Finger42
+    100118: Fbx01_R_Finger4Nub
+    100120: Fbx01_R_Foot
+    100122: Fbx01_R_Forearm
+    100124: Fbx01_R_Hand
+    100126: Fbx01_R_Thigh
+    100128: Fbx01_R_Toe0
+    100130: Fbx01_R_Toe0Nub
+    100132: Fbx01_R_UpperArm
+    100134: Fbx01_Spine
+    100136: Fbx01_Spine1
+    100138: Fbx01_Spine2
+    100140: //RootNode
+    100142: U3DMesh
+    400000: Fbx01
+    400002: Fbx01_Footsteps
+    400004: Fbx01_Head
+    400006: Fbx01_HeadNub
+    400008: Fbx01_L_Calf
+    400010: Fbx01_L_Clavicle
+    400012: Fbx01_L_Eye
+    400014: Fbx01_L_Finger0
+    400016: Fbx01_L_Finger01
+    400018: Fbx01_L_Finger02
+    400020: Fbx01_L_Finger0Nub
+    400022: Fbx01_L_Finger1
+    400024: Fbx01_L_Finger11
+    400026: Fbx01_L_Finger12
+    400028: Fbx01_L_Finger1Nub
+    400030: Fbx01_L_Finger2
+    400032: Fbx01_L_Finger21
+    400034: Fbx01_L_Finger22
+    400036: Fbx01_L_Finger2Nub
+    400038: Fbx01_L_Finger3
+    400040: Fbx01_L_Finger31
+    400042: Fbx01_L_Finger32
+    400044: Fbx01_L_Finger3Nub
+    400046: Fbx01_L_Finger4
+    400048: Fbx01_L_Finger41
+    400050: Fbx01_L_Finger42
+    400052: Fbx01_L_Finger4Nub
+    400054: Fbx01_L_Foot
+    400056: Fbx01_L_Forearm
+    400058: Fbx01_L_Hand
+    400060: Fbx01_L_Thigh
+    400062: Fbx01_L_Toe0
+    400064: Fbx01_L_Toe0Nub
+    400066: Fbx01_L_UpperArm
+    400068: Fbx01_Neck
+    400070: Fbx01_Neck1
+    400072: Fbx01_Pelvis
+    400074: Fbx01_R_Calf
+    400076: Fbx01_R_Clavicle
+    400078: Fbx01_R_Eye
+    400080: Fbx01_R_Finger0
+    400082: Fbx01_R_Finger01
+    400084: Fbx01_R_Finger02
+    400086: Fbx01_R_Finger0Nub
+    400088: Fbx01_R_Finger1
+    400090: Fbx01_R_Finger11
+    400092: Fbx01_R_Finger12
+    400094: Fbx01_R_Finger1Nub
+    400096: Fbx01_R_Finger2
+    400098: Fbx01_R_Finger21
+    400100: Fbx01_R_Finger22
+    400102: Fbx01_R_Finger2Nub
+    400104: Fbx01_R_Finger3
+    400106: Fbx01_R_Finger31
+    400108: Fbx01_R_Finger32
+    400110: Fbx01_R_Finger3Nub
+    400112: Fbx01_R_Finger4
+    400114: Fbx01_R_Finger41
+    400116: Fbx01_R_Finger42
+    400118: Fbx01_R_Finger4Nub
+    400120: Fbx01_R_Foot
+    400122: Fbx01_R_Forearm
+    400124: Fbx01_R_Hand
+    400126: Fbx01_R_Thigh
+    400128: Fbx01_R_Toe0
+    400130: Fbx01_R_Toe0Nub
+    400132: Fbx01_R_UpperArm
+    400134: Fbx01_Spine
+    400136: Fbx01_Spine1
+    400138: Fbx01_Spine2
+    400140: //RootNode
+    400142: U3DMesh
+    4300000: U3DMesh
+    7400000: Sitting
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: U3DMesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Sitting
+      takeName: Sitting
+      firstFrame: 1
+      lastFrame: 60
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Fbx01
+        weight: 1
+      - path: Fbx01/Fbx01_Footsteps
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_L_Thigh
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_L_Thigh/Fbx01_L_Calf
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_L_Thigh/Fbx01_L_Calf/Fbx01_L_Foot
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_L_Thigh/Fbx01_L_Calf/Fbx01_L_Foot/Fbx01_L_Toe0
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_L_Thigh/Fbx01_L_Calf/Fbx01_L_Foot/Fbx01_L_Toe0/Fbx01_L_Toe0Nub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_R_Thigh
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_R_Thigh/Fbx01_R_Calf
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_R_Thigh/Fbx01_R_Calf/Fbx01_R_Foot
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_R_Thigh/Fbx01_R_Calf/Fbx01_R_Foot/Fbx01_R_Toe0
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_R_Thigh/Fbx01_R_Calf/Fbx01_R_Foot/Fbx01_R_Toe0/Fbx01_R_Toe0Nub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger0
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger0/Fbx01_L_Finger01
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger0/Fbx01_L_Finger01/Fbx01_L_Finger02
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger0/Fbx01_L_Finger01/Fbx01_L_Finger02/Fbx01_L_Finger0Nub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger1
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger1/Fbx01_L_Finger11
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger1/Fbx01_L_Finger11/Fbx01_L_Finger12
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger1/Fbx01_L_Finger11/Fbx01_L_Finger12/Fbx01_L_Finger1Nub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger2
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger2/Fbx01_L_Finger21
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger2/Fbx01_L_Finger21/Fbx01_L_Finger22
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger2/Fbx01_L_Finger21/Fbx01_L_Finger22/Fbx01_L_Finger2Nub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger3
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger3/Fbx01_L_Finger31
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger3/Fbx01_L_Finger31/Fbx01_L_Finger32
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger3/Fbx01_L_Finger31/Fbx01_L_Finger32/Fbx01_L_Finger3Nub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger4
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger4/Fbx01_L_Finger41
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger4/Fbx01_L_Finger41/Fbx01_L_Finger42
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_L_Clavicle/Fbx01_L_UpperArm/Fbx01_L_Forearm/Fbx01_L_Hand/Fbx01_L_Finger4/Fbx01_L_Finger41/Fbx01_L_Finger42/Fbx01_L_Finger4Nub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_Neck1
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_Neck1/Fbx01_Head
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_Neck1/Fbx01_Head/Fbx01_HeadNub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_Neck1/Fbx01_Head/Fbx01_L_Eye
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_Neck1/Fbx01_Head/Fbx01_R_Eye
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger0
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger0/Fbx01_R_Finger01
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger0/Fbx01_R_Finger01/Fbx01_R_Finger02
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger0/Fbx01_R_Finger01/Fbx01_R_Finger02/Fbx01_R_Finger0Nub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger1
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger1/Fbx01_R_Finger11
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger1/Fbx01_R_Finger11/Fbx01_R_Finger12
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger1/Fbx01_R_Finger11/Fbx01_R_Finger12/Fbx01_R_Finger1Nub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger2
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger2/Fbx01_R_Finger21
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger2/Fbx01_R_Finger21/Fbx01_R_Finger22
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger2/Fbx01_R_Finger21/Fbx01_R_Finger22/Fbx01_R_Finger2Nub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger3
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger3/Fbx01_R_Finger31
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger3/Fbx01_R_Finger31/Fbx01_R_Finger32
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger3/Fbx01_R_Finger31/Fbx01_R_Finger32/Fbx01_R_Finger3Nub
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger4
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger4/Fbx01_R_Finger41
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger4/Fbx01_R_Finger41/Fbx01_R_Finger42
+        weight: 1
+      - path: Fbx01/Fbx01_Pelvis/Fbx01_Spine/Fbx01_Spine1/Fbx01_Spine2/Fbx01_Neck/Fbx01_R_Clavicle/Fbx01_R_UpperArm/Fbx01_R_Forearm/Fbx01_R_Hand/Fbx01_R_Finger4/Fbx01_R_Finger41/Fbx01_R_Finger42/Fbx01_R_Finger4Nub
+        weight: 1
+      - path: U3DMesh
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
