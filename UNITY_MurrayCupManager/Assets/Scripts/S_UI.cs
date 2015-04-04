@@ -26,7 +26,7 @@ public class S_UI: MonoBehaviour
 		{
 			name_container = l + "_container" ;
 			go_container = GameObject.Find(name_container);
-			List<GameObject> container_subWindows = new List<GameObject>();
+//			List<GameObject> container_subWindows = new List<GameObject>();
 			UI_Collection.Add(l,go_container);
 		}
 	}
