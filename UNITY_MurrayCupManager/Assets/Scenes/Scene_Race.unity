@@ -194,7 +194,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 0ca88ba32b93ad94c8ed9374cc6dcfdb, type: 3}
       propertyPath: m_LocalScale.x
-      value: .100000016
+      value: .100000031
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 0ca88ba32b93ad94c8ed9374cc6dcfdb, type: 3}
       propertyPath: m_LocalScale.y
@@ -202,7 +202,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400006, guid: 0ca88ba32b93ad94c8ed9374cc6dcfdb, type: 3}
       propertyPath: m_LocalScale.z
-      value: .099999994
+      value: .100000009
       objectReference: {fileID: 0}
     - target: {fileID: 13700000, guid: 0ca88ba32b93ad94c8ed9374cc6dcfdb, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -251,7 +251,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 279531992}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2.01999998, z: 0}
+  m_LocalPosition: {x: 4.2667675, y: 6.85453415e-07, z: -6.50632095}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
@@ -285,7 +285,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5222933308b16f1488908925dc79a9e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 10
+  speed: 6
   lookRotation: 1
 --- !u!114 &610825344
 MonoBehaviour:
@@ -300,29 +300,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   offset: .100000001
   originalStartIndex: 0
-  isPhysically: 1
+  isPhysically: 0
   reverse: 0
   moveOnAwake: 1
-  controlType: 1
+  controlType: 0
   offsetType: 1
   splineWindow: {fileID: 279531993}
   events:
-  - m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
-  - m_PersistentCalls:
-      m_Calls: []
-    m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
-      PublicKeyToken=null
   - m_PersistentCalls:
       m_Calls: []
     m_TypeName: UnityEngine.Events.UnityEvent, UnityEngine, Version=0.0.0.0, Culture=neutral,
@@ -446,11 +430,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 1
---- !u!4 &1363759633
+--- !u!4 &1363759633 stripped
 Transform:
   m_PrefabParentObject: {fileID: 400006, guid: 0ca88ba32b93ad94c8ed9374cc6dcfdb, type: 3}
   m_PrefabInternal: {fileID: 197689989}
---- !u!1 &1391725932
+--- !u!1 &1391725932 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100006, guid: 0ca88ba32b93ad94c8ed9374cc6dcfdb, type: 3}
   m_PrefabInternal: {fileID: 197689989}
@@ -551,155 +535,102 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   waypoints:
   - method: 
-    localPosition: {x: -9.65430737, y: -2.02000093, z: 7.67545795}
+    localPosition: {x: 4.14883518, y: 2.98023224e-08, z: .0801906586}
     subways: 01000000
-    reversedWays: 08000000
+    reversedWays: 07000000
     handles:
-    - {x: -6.27757978, y: -9.53674316e-07, z: 7.78862906}
-    - {x: -15.3627892, y: -7.15255737e-07, z: 6.22404575}
+    - {x: 4.64246655, y: 1.43051147e-06, z: -11.6787176}
+    - {x: 8.58608341, y: 5.43322642e-07, z: -4.93584967}
     localHandles:
-    - {x: -6.27757978, y: -2.02000093, z: 7.78862906}
-    - {x: -15.3627892, y: -2.0200007, z: 6.22404575}
+    - {x: .375699043, y: 7.4505806e-07, z: -5.17239666}
+    - {x: 4.31931591, y: -1.42130773e-07, z: 1.57047129}
     segments:
-    - .0275847297
+    - .0193807948
   - method: 
-    localPosition: {x: 10.1524029, y: -2.02000093, z: 7.666327}
+    localPosition: {x: 10.0025768, y: 2.68220901e-07, z: -.54118681}
     subways: 02000000
     reversedWays: 00000000
     handles:
-    - {x: 22.2184563, y: .0336489677, z: 8.74068356}
-    - {x: 5.14071512, y: -9.53674316e-07, z: 7.67377281}
-    localHandles:
-    - {x: 22.2184563, y: -1.98635101, z: 8.74068356}
-    - {x: 5.14071512, y: -2.02000093, z: 7.67377281}
-    segments:
-    - .026665682
-  - method: 
-    localPosition: {x: 8.41560268, y: -2.01999927, z: -6.42613029}
-    subways: 03000000
-    reversedWays: 010000000b000000
-    handles:
-    - {x: 4.64246655, y: 1.43051147e-06, z: -11.6787176}
-    - {x: 10.5785246, y: 4.76837158e-07, z: -1.91911173}
-    - {x: 8.54304695, y: 4.76837158e-07, z: -4.93155193}
-    localHandles:
-    - {x: 4.64246655, y: -2.01999855, z: -11.6787176}
-    - {x: 10.5785246, y: -2.0199995, z: -1.91911173}
-    - {x: 8.54304695, y: -2.0199995, z: -4.93155193}
-    segments:
-    - .0387615897
-  - method: 
-    localPosition: {x: 14.2693443, y: -2.01999903, z: -7.04750776}
-    subways: 04000000
-    reversedWays: 02000000
-    handles:
-    - {x: 13.1079473, y: -2.38418579e-07, z: 1.98238242}
+    - {x: 13.1079473, y: -2.38418579e-07, z: 1.98238277}
     - {x: 14.6325502, y: 1.90734863e-06, z: -16.9859905}
     localHandles:
-    - {x: 13.1079473, y: -2.02000022, z: 1.98238242}
-    - {x: 14.6325502, y: -2.01999807, z: -16.9859905}
+    - {x: 8.84117985, y: -9.23871994e-07, z: 8.48870373}
+    - {x: 10.3657827, y: 1.22189522e-06, z: -10.4796696}
     segments:
-    - .0391643755
+    - .0195821878
   - method: 
-    localPosition: {x: 20.8260117, y: -2.01999927, z: -7.39909077}
-    subways: 05000000
-    reversedWays: 03000000
+    localPosition: {x: 16.5592442, y: 2.98023224e-08, z: -.892769814}
+    subways: 03000000
+    reversedWays: 01000000
     handles:
     - {x: 19.9378014, y: 1.43051147e-06, z: -12.1136932}
     - {x: 21.9584885, y: .53129077, z: -2.63598585}
     localHandles:
-    - {x: 19.9378014, y: -2.01999855, z: -12.1136932}
-    - {x: 21.9584885, y: -1.48870921, z: -2.63598585}
+    - {x: 15.6710339, y: 7.4505806e-07, z: -5.60737228}
+    - {x: 17.691721, y: .531290054, z: 3.8703351}
     segments:
-    - .0253704712
+    - .0126852356
   - method: 
-    localPosition: {x: 6.76116562, y: -2.01999736, z: -22.186245}
-    subways: 06000000
-    reversedWays: 04000000
+    localPosition: {x: 2.49439812, y: 1.93715096e-06, z: -15.679924}
+    subways: 04000000
+    reversedWays: 02000000
     handles:
     - {x: 2.97930717, y: 2.62260437e-06, z: -21.8226719}
     - {x: 10.6063595, y: 2.62260437e-06, z: -22.0605793}
     localHandles:
-    - {x: 2.97930717, y: -2.01999736, z: -21.8226719}
-    - {x: 10.6063595, y: -2.01999736, z: -22.0605793}
+    - {x: -1.28746033, y: 1.93715096e-06, z: -15.3163509}
+    - {x: 6.33959198, y: 1.93715096e-06, z: -15.5542583}
     segments:
-    - .0443944149
+    - .0221972074
   - method: 
-    localPosition: {x: 2.9102025, y: -2.01999855, z: -11.0019293}
+    localPosition: {x: -1.356565, y: 7.4505806e-07, z: -4.49560833}
+    subways: 05000000
+    reversedWays: 03000000
+    handles:
+    - {x: 4.48283291, y: .0485655069, z: -1.15282726}
+    - {x: 2.26332808, y: 2.14576721e-06, z: -17.4369526}
+    localHandles:
+    - {x: .216065407, y: .0485648215, z: 5.35349369}
+    - {x: -2.00343943, y: 1.4603138e-06, z: -10.9306316}
+    segments:
+    - .0114680231
+  - method: 
+    localPosition: {x: -16.0752106, y: -2.08616257e-07, z: -4.8174572}
+    subways: 06000000
+    reversedWays: 04000000
+    handles:
+    - {x: -18.396347, y: 7.15255737e-07, z: -29.9555531}
+    - {x: -11.7527599, y: 2.38418579e-07, z: .93716526}
+    localHandles:
+    - {x: -22.6631145, y: 2.98023224e-08, z: -23.4492321}
+    - {x: -16.0195274, y: -4.47034836e-07, z: 7.44348621}
+    segments:
+    - .00815377012
+  - method: 
+    localPosition: {x: -21.398119, y: -1.3302199e-06, z: 11.9150143}
     subways: 07000000
     reversedWays: 05000000
     handles:
-    - {x: 4.48283291, y: .0485655069, z: -1.1528275}
-    - {x: 2.26332808, y: 2.14576721e-06, z: -17.4369526}
+    - {x: -12.4285183, y: -7.40389055e-07, z: 7.85311317}
+    - {x: -27.1864738, y: -5.4914392e-07, z: -.430138588}
     localHandles:
-    - {x: 4.48283291, y: -1.97143447, z: -1.1528275}
-    - {x: 2.26332808, y: -2.01999784, z: -17.4369526}
+    - {x: -16.6952858, y: -1.42584247e-06, z: 14.3594341}
+    - {x: -31.4532413, y: -1.23459733e-06, z: 6.07618237}
     segments:
-    - .0230032615
+    - .0100647658
   - method: 
-    localPosition: {x: -11.9575834, y: -2.0199995, z: -11.249156}
-    subways: 08000000
+    localPosition: {x: 5.82076168, y: -1.63062919e-06, z: 14.7483749}
+    subways: 00000000
     reversedWays: 06000000
     handles:
-    - {x: -18.5236435, y: 7.15255737e-07, z: -27.7391701}
-    - {x: -11.8896914, y: 2.38418579e-07, z: .5343647}
+    - {x: 23.933567, y: -7.73242618e-07, z: 9.02584934}
+    - {x: 1.72527885, y: -9.20587013e-07, z: 8.19996071}
     localHandles:
-    - {x: -18.5236435, y: -2.01999927, z: -27.7391701}
-    - {x: -11.8896914, y: -2.01999974, z: .5343647}
+    - {x: 19.6667995, y: -1.45869603e-06, z: 15.5321703}
+    - {x: -2.54148865, y: -1.60604043e-06, z: 14.7062817}
     segments:
-    - .0181978922
-  - method: 
-    localPosition: {x: -19.370388, y: -2.02000046, z: 3.17098975}
-    subways: 0000000009000000
-    reversedWays: 07000000
-    handles:
-    - {x: -17.0735664, y: -7.15255737e-07, z: 5.90405798}
-    - {x: -18.081028, y: -4.76837158e-07, z: 4.4043746}
-    - {x: -26.4913006, y: -.00353360176, z: -3.19535971}
-    localHandles:
-    - {x: -17.0735664, y: -2.0200007, z: 5.90405798}
-    - {x: -18.081028, y: -2.02000046, z: 4.4043746}
-    - {x: -26.4913006, y: -2.02353358, z: -3.19535971}
-    segments:
-    - .0537931658
-    - .0906872302
-  - method: 
-    localPosition: {x: -13.9016752, y: -2.0200007, z: 6.15005302}
-    subways: 0a000000
-    reversedWays: 08000000
-    handles:
-    - {x: -8.18890858, y: -7.15255737e-07, z: 5.7641573}
-    - {x: -16.7956944, y: -7.15255737e-07, z: 5.68412733}
-    localHandles:
-    - {x: -8.18890858, y: -2.0200007, z: 5.7641573}
-    - {x: -16.7956944, y: -2.0200007, z: 5.68412733}
-    segments:
-    - .0592233986
-  - method: 
-    localPosition: {x: -6.82192469, y: -2.02000022, z: 1.05357575}
-    subways: 0b000000
-    reversedWays: 09000000
-    handles:
-    - {x: -5.62200451, y: 0, z: .153466299}
-    - {x: -9.44962692, y: -2.38418579e-07, z: 1.78878927}
-    localHandles:
-    - {x: -5.62200451, y: -2.01999998, z: .153466299}
-    - {x: -9.44962692, y: -2.02000022, z: 1.78878927}
-    segments:
-    - .0346038118
-  - method: 
-    localPosition: {x: 8.79133892, y: -2.02000022, z: 1.09754872}
-    subways: 02000000
-    reversedWays: 0a000000
-    handles:
-    - {x: 12.2585154, y: 0, z: -.574168265}
-    - {x: 5.47105169, y: -2.38418579e-07, z: 2.02603388}
-    localHandles:
-    - {x: 12.2585154, y: -2.01999998, z: -.574168265}
-    - {x: 5.47105169, y: -2.02000022, z: 2.02603388}
-    segments:
-    - .0630885959
-  resolution: 2
+    - .0122157363
+  resolution: 4
 --- !u!1001 &2045907609
 Prefab:
   m_ObjectHideFlags: 0
@@ -737,7 +668,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 8353043da2895404c95e25cbcde9bada, type: 3}
       propertyPath: m_RootOrder
-      value: 5
+      value: 4
       objectReference: {fileID: 0}
     - target: {fileID: 2300000, guid: 8353043da2895404c95e25cbcde9bada, type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -750,7 +681,7 @@ Prefab:
     m_RemovedComponents: []
   m_ParentPrefab: {fileID: 100100000, guid: 8353043da2895404c95e25cbcde9bada, type: 3}
   m_IsPrefabParent: 0
---- !u!1 &2045907610
+--- !u!1 &2045907610 stripped
 GameObject:
   m_PrefabParentObject: {fileID: 100000, guid: 8353043da2895404c95e25cbcde9bada, type: 3}
   m_PrefabInternal: {fileID: 2045907609}
